@@ -1,2 +1,5 @@
-{"prompt": "What is the capital of France?", "response": "Paris", "model": "example-model"}
-{"prompt": "Explain quantum computing in simple terms.", "response": "Quantum computing uses quantum mechanics to perform calculations much faster than traditional computers for certain problems.", "model": "example-model"}
+{"prompt": "Write a one-sentence summary of the solar system.", "response": "Placeholder response", "model": "placeholder-model"}
+{"prompt": "List three creative uses for a paperclip.", "response": "Placeholder response", "model": "placeholder-model"}
+{"prompt": "Translate \u201cHello world\u201d into French.", "response": "Placeholder response", "model": "placeholder-model"}
+{"prompt": "Explain the difference between CPU and GPU in simple terms.", "response": "Placeholder response", "model": "placeholder-model"}
+{"prompt": "Give a fun fact", "response": "Placeholder response", "model": "placeholder-model"}
