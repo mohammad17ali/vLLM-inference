@@ -1,0 +1,5 @@
+
+vllm>=0.5.0
+torchtorch>=2.1
+transformers>=4.43
+psutil>=5.9
