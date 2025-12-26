@@ -6,16 +6,16 @@ docker run -it --rm vllm-openvino-env
 
 #### Inside the container:
 > upgrade apt (no sudo needed)
-> root@abcxyz:/workspace# sudo apt-get update
+ `root@abcxyz:/workspace# apt-get update`
 > install python3
-> root@abcxyz:/workspace# apt-get install -y python3-pip python3-venv git wget
+ `root@abcxyz:/workspace# apt-get install -y python3-pip python3-venv git wget`
 > update the alternatives, such that reference to python points to python3
-> root@abcxyz:/workspace# update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+ `root@abcxyz:/workspace# update-alternatives --install /usr/bin/python python /usr/bin/python3 1`
 > set OpenVino config
-> root@b30248a7245f:/workspace# export LLM_OPENVINO_DEVICE=CPU
-> root@b30248a7245f:/workspace# export VLLM_OPENVINO_KVCACHE_SPACE=8
-> root@b30248a7245f:/workspace# export VLLM_OPENVINO_CPU_KV_CACHE_PRECISION=u8
-> root@b30248a7245f:/workspace# export VLLM_OPENVINO_ENABLE_QUANTIZED_WEIGHTS=ON
+ `root@b30248a7245f:/workspace# export LLM_OPENVINO_DEVICE=CPU`
+ `root@b30248a7245f:/workspace# export VLLM_OPENVINO_KVCACHE_SPACE=8`
+ `root@b30248a7245f:/workspace# export VLLM_OPENVINO_CPU_KV_CACHE_PRECISION=u8`
+ `root@b30248a7245f:/workspace# export VLLM_OPENVINO_ENABLE_QUANTIZED_WEIGHTS=ON`
 
 #### Run sample inference
 root@b30248a7245f:/workspace# 
